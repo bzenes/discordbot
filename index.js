@@ -20,6 +20,6 @@ client.on("ready", () => {
             renkSira = 0
         }
         renkSira++;
-    }, 1000);
+    }, 1000); // 1 saniyede bir değişmesini sağlıyor
 
 })
