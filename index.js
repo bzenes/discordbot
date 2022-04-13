@@ -17,7 +17,7 @@ client.on("ready", () => {
         role.edit({
             color: colors[renkSira]
         })
-        if (renkSira == 23) {
+        if (renkSira == colors.length) {
             renkSira = 0
         }
         renkSira++;
